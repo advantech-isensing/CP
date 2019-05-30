@@ -194,7 +194,7 @@ img.aligncenter {
 	height: 56px;
 	margin: 0px auto;
 	padding: 20px 20px 0px 20px;
-	background: #F44C31;
+	background: #0ca299;
 }
 
 #menu ul {
@@ -218,14 +218,14 @@ img.aligncenter {
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 700;
 	color: #FFF;
 }
 
 #menu .current_page_item a {
 	background: #FFFFFF;
-	color: #F44C31;
+	color: #0ca299;
 }
 
 #menu a:hover {
