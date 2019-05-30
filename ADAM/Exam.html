@@ -81,64 +81,61 @@ Released   : 20111121
 						<div class="entry">
 							<p>Here we list out the sample questions for participant to have a look at the Exam including <strong><I>Online Paper</strong></I> and <strong><I>Hands-on</strong></I> part.</p>
 							<p><strong>●  <u>Multi-Choice</u></strong> <br><br>
-							1. Which of the following statement about RSTP is <strong>NOT</strong> true?
+							1. Which SNMP message will be send when DIO change happened on ADAM module?
 							<blockquote>
-							(A) The overall convergence time is within 10s.<br>
-							(B) RSTP adopts an unique Proposal/Agreement mechanism to speed up the convergence with each other.<br>
-							(C) When non-root bridges realize there is a Root Port change during the Proposal/Agreement process, it will immediately block all its non-edge port to avoid loops.<br>
-							(D) The "Synchronization" stage during the process speeds up the overall convergence since the loops are prevented, the Root Port-to-be can directly go to forwarding state.<br>
-							(E) All the BPDUs used to calculate RSTP algorithm need to be sent by the root bridge.
+							(A) SNMP get-next-request<br>
+							(B) SNMP trap<br>
+							(C) SNMP get-response<br>
+							(D) SNMP set-request<br>
 							</blockquote>
 							</p>
 							<p><strong>●  <u>Short Answer Questions</u></strong> <br><br>
-							1. What's the meaning of <I><strong>Backup Port</strong></I> and also <I><strong>Alternate Port</strong></I> defined in RSTP?
+							1. What is the MQTT setting of ADAM to define the message quality between subscriber and broker?
+							</p>
+							<p><strong>●  <u>Scenario Questions</u></strong> <br><br>
+							1. As the attached picture shows, there is a “Modbus invalid CRC” error when testing ADAM-4024 with Adam commander. What may be the possible cause?<br>
+							<img src="../images/example1.png" style="width:800px" alt="" />
 							</p>
 							<p><strong>●  <u>Hands-on</u></strong> <br><br>
-							1. STP/RSTP 
-						    <blockquote>Build up a redundant network with STP and RSTP in a ring topology.</blockquote>
+							1. GCL function set up 
+					<!--	<blockquote>Build up a redundant network with STP and RSTP in a ring topology.</blockquote>  -->
 							<blockquote><span style="background-color:#e0e0e0"><strong>Scenario</strong></span><br>
-								Customer who bought three EKI-7710Gs would like to test the redundant network. He asks whether we can show him how to set STP and RSTP settings on our switches. Please help the customer to finish both STP and RSTP settings based on below topology.<br>
-								<br>Figure 1. Redundant network with STP/RSTP in a ring topology<br>
-								<img src="../images/stp.png" style="width:550px ; valign:center" alt="" />
-								<table align="right" valign="center" style="width:30%;border-top:3px #FFFFFF solid;border-bottom:3px 	#004b97 solid; " rules="rows" border="0" cellpadding="10" cellspacing="10">
+								Customers have a problem on our GCL function by using ADAM-6250. They said that they want DO0 to turn ON when module’s DI0, DI1, DI2 are all ON, but don’t know how to make it. Please provide the correct GCL rules setting in ADAM-6250.<br>
+					<!--		<br>Figure 1. Schematic Diagram<br>    -->
+								<img src="../images/ADAM_handson.png" style="width:200px ; valign:center; align:right" alt="" />
+								<table align="right" valign="center" style="width:30%;border-top:3px #FFFFFF solid;border-bottom:3px 	#006C6C solid; " rules="rows" border="0" cellpadding="10" cellspacing="10">
 									<tbody>
 									<tr>
-									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;"><strong><i>Required Devices</i></strong></td>
-									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;"></td>
+									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;" colspan="2"><strong><i>Required Hardware/Software</i></strong></td>
 									</tr>
 									<tr>
 									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 16px;"><strong>Item</strong></td>
 									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 16px;"><strong>Quantity</strong></td>
 									</tr>
 									<tr>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">EKI-7710</td>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">3</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">ADAM-6250-AE</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">1</td>
 									</tr>
 									<tr>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">Console Cable</td>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">1</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">24 Power Supply</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">1</td>
 									</tr>
 									<tr>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">24/48V Power Supply</td>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">1</td>
-									</tr>
-									<tr>
-									<td style="text-align:center;border-bottom:2px 	#004b97 solid; font-size: 16px;">PC or Laptop</td>
-									<td style="text-align:center; font-size: 16px;">1</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">Adam/Apax.net Utility</td>
+									<td style="text-align:center; font-size: 16px;">N/A</td>
 									</tr>
 									</tbody>
 								</table>
 							</blockquote>
 							<blockquote><span style="background-color:#e0e0e0"><strong>Requirement</strong></span><br>
-							(i.) Build up the test environment above and provide the <strong><i>“STP Global Setting”</i></strong> on EKI switches when the redundant network is requested to run <strong><i>STP</i></strong>. (See example picture below)<br>
-							<br><img src="../images/stp2.png" style="width:700px ; valign:center" alt="" /><br>
-							(ii.) Please provide the <strong><i>“STP Port Advanced Setting”</i></strong> for all the EKI switches when the redundant network is requested to run <strong><i>STP</i></strong>. (See sample picture below)<br>
-							<br><img src="../images/stp3.png" style="width:700px ; valign:center" alt="" /><br>
-							(iii. ) Please provide the <strong><i>“STP Port Advanced Setting”</i></strong> for all the EKI switches when the redundant network is requested to run <strong><i>RSTP</i></strong>. (See sample picture below)<br>
-							<br><img src="../images/stp4.png" style="width:700px ; valign:center" alt="" />
+							(i.) 1.	Please provide the GCL rule setting in Adam/Apax.net Utility that meet customer’s request. (See example picture below)<br>
+							<br><img src="../images/ADAM_handson2.jpg" style="width:600px ; valign:center" alt="" /><br>
+							(ii.) 2.	Please show the status of each stage by using GCL online monitoring tool when DI0, DI1 DI2 are all in logic high status. (See sample picture below)<br>
+							<br><img src="../images/ADAM_handson3.png" style="width:600px ; valign:center" alt="" />
 							</blockquote>
 							<blockquote><span style="background-color:#e0e0e0"><strong>Results</strong></span><br>
-							Please provide the three corresponding screenshots as shown in the above requirements on the <strong><i>Answer Sheet</i></strong>. You should be able to see the role differences on STP and RSTP of EKI switches if the related setting is correct.
+							Please provide three screenshots as shown in the above requirement 1 & 2.
+							(You should be able to see the yellow dot flows all the way when DI0,DI1,DI2 are all turn on, and the DO status LED on the module panel will be turn on if the GCL rule is running successfully.)
 							</blockquote>
 							</p>
 						</div>
