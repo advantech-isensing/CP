@@ -9,7 +9,7 @@ Released for free under the Creative Commons Attribution License
 body {
 	margin: 0;
 	padding: 0;
-	background: #F0F0F0 url(images/bg.png) repeat;
+	background: #F0F0F0 url(../images/bg.png) repeat;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
@@ -195,7 +195,7 @@ img.aligncenter {
 	height: 56px;
 	margin: 0px auto;
 	padding: 20px 20px 0px 20px;
-	background: #F44C31;
+	background: #0ca299;
 }
 
 #menu ul {
@@ -226,7 +226,7 @@ img.aligncenter {
 
 #menu .current_page_item a {
 	background: #FFFFFF;
-	color: #F44C31;
+	color: #0ca299;
 }
 
 #menu a:hover {
