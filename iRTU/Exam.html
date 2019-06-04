@@ -81,61 +81,66 @@ Released   : 20111121
 						<div class="entry">
 							<p>Here we list out the sample questions for participant to have a look at the Exam including <strong><I>Online Paper</strong></I> and <strong><I>Hands-on</strong></I> part.</p>
 							<p><strong>●  <u>Multi-Choice</u></strong> <br><br>
-							1. Which SNMP message will be send when DIO change happened on ADAM module?
+							1. What is the default password in online monitor?
 							<blockquote>
-							(A) SNMP get-next-request<br>
-							(B) SNMP trap<br>
-							(C) SNMP get-response<br>
-							(D) SNMP set-request<br>
+							(A) 00000000<br>
+							(B) 11111111<br>
+							(C) 000000<br>
+							(D) 111111<br>
 							</blockquote>
 							</p>
-							<p><strong>●  <u>Short Answer Questions</u></strong> <br><br>
-							1. What is the MQTT setting of ADAM to define the message quality between subscriber and broker?
+							<p><strong>●  <u>True-False Questions</u></strong> <br><br>
+							1. ADAM-3600 has 8AI, 8 DI and 4 DO (On-board I/O)?
 							</p>
-							<p><strong>●  <u>Scenario Questions</u></strong> <br><br>
-							1. As the attached picture shows, there is a “Modbus invalid CRC” error when testing ADAM-4024 with Adam commander. What may be the possible cause?<br>
-							<img src="../images/example1.png" style="width:800px" alt="" />
+							<p><strong>●  <u>Short Answer Questions</u></strong> <br><br>
+							1. What network interfaces does the ADAM-3600 support to access the Internet? <br>(Please list <strong>3</strong> of them.)
 							</p>
 							<p><strong>●  <u>Hands-on</u></strong> <br><br>
-							1. GCL function set up 
+							1. Create a calculation which can show the sum of two user tags. 
 					<!--	<blockquote>Build up a redundant network with STP and RSTP in a ring topology.</blockquote>  -->
-							<blockquote><span style="background-color:#e0e0e0"><strong>Scenario</strong></span><br>
-								Customers have a problem on our GCL function by using ADAM-6250. They said that they want DO0 to turn ON when module’s DI0, DI1, DI2 are all ON, but don’t know how to make it. Please provide the correct GCL rules setting in ADAM-6250.<br>
+							<blockquote><span style="background-color:#e0e0e0"><strong>Topology</strong></span><br>
+								Please prepare one computer with EdgeLink Studio. Create two user tags and then create a calculation tag to show the sum of the two user tags.<br>
 					<!--		<br>Figure 1. Schematic Diagram<br>    -->
-								<img src="../images/ADAM_handson.png" style="width:200px ; valign:center; align:right" alt="" />
+								<img src="../images/iRTU/handson.png" style="width:500px ; valign:center; align:right" alt="" />
 								<table align="right" valign="center" style="width:30%;border-top:3px #FFFFFF solid;border-bottom:3px 	#006C6C solid; " rules="rows" border="0" cellpadding="10" cellspacing="10">
 									<tbody>
 									<tr>
-									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;" colspan="2"><strong><i>Required Hardware/Software</i></strong></td>
+									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 18px;" colspan="2"><strong><i>Required Device List</i></strong></td>
 									</tr>
 									<tr>
 									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 16px;"><strong>Item</strong></td>
 									<td style="text-align:center;border-bottom:3px #FFB630 solid; font-size: 16px;"><strong>Quantity</strong></td>
 									</tr>
 									<tr>
-									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">ADAM-6250-AE</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">ADAM-3600</td>
 									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">1</td>
 									</tr>
 									<tr>
-									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">24 Power Supply</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">RJ45 Console Cable</td>
 									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">1</td>
 									</tr>
 									<tr>
-									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">Adam/Apax.net Utility</td>
-									<td style="text-align:center; font-size: 16px;">N/A</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">24/48V Power Supply</td>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">1</td>
+									</tr>
+									<tr>
+									<td style="text-align:center;border-bottom:2px 	#006C6C solid; font-size: 16px;">PC or Laptop</td>
+									<td style="text-align:center; font-size: 16px;">1</td>
 									</tr>
 									</tbody>
 								</table>
-							</blockquote>
+							</blockquote><br>
 							<blockquote><span style="background-color:#e0e0e0"><strong>Requirement</strong></span><br>
-							(i.) 1.	Please provide the GCL rule setting in Adam/Apax.net Utility that meet customer’s request. (See example picture below)<br>
-							<br><img src="../images/ADAM_handson2.jpg" style="width:600px ; valign:center" alt="" /><br>
-							(ii.) 2.	Please show the status of each stage by using GCL online monitoring tool when DI0, DI1 DI2 are all in logic high status. (See sample picture below)<br>
-							<br><img src="../images/ADAM_handson3.png" style="width:600px ; valign:center" alt="" />
+							(i.) Create two user tags named with &#060Your Name&#062 and &#060Your Name1&#062. And you can’t get any point if your name is absent. (See example picture below)<br>
+							<br><img src="../images/iRTU/example1.png" style="width:700px ; valign:center" alt="" /><br>
+							(ii.) Create a calculation tag named with “sum” to show the sum of the two user tags. (See example picture below)<br>
+							<br><img src="../images/iRTU/example2.png" style="width:700px ; valign:center" alt="" /><br>
+							(iii.) Download the project.<br>
 							</blockquote>
 							<blockquote><span style="background-color:#e0e0e0"><strong>Results</strong></span><br>
-							Please provide three screenshots as shown in the above requirement 1 & 2.
-							(You should be able to see the yellow dot flows all the way when DI0,DI1,DI2 are all turn on, and the DO status LED on the module panel will be turn on if the GCL rule is running successfully.)
+							Set value 1 for <Your name> and 2 for <Your name1>. The value of “sum” will be 3. (See example picture below)<br>
+							<br><img src="../images/iRTU/res.png" style="width:700px ; valign:center" alt="" /><br>
+							Please provide overall <strong>THREE</strong> screenshots as shown in the above requirements (i.) & (ii.) and also the result on the <strong><I>Answer Sheet</I></strong>.
 							</blockquote>
 							</p>
 						</div>
